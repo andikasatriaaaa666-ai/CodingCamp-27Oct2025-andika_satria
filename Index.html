@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mini project</title>
+<!--   css eksternal file link -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- header 1 content -->
+   <header class="header-1">
+     <marquee behavior="" direction=""><h1>selamat datang di web saya</h1></marquee>
+   </header>
+  <!-- header 1 content end -->
+ <div class="main-container">
+  <!-- header 2 content -->
+   <header class="header-2">
+     <h2>todo list saya</h2>
+   </header>
+  <!-- header 2 content end -->
+  <!-- main content -->
+   <main>
+     
+    <!-- form section -->
+     <section>
+      
+      <!-- todo input -->
+       <form id="todoForm">
+         <input type="text" placeholder="contoh:push-up 30×" id="tugas">
+         <input type="date" id="tanggal">
+        <!-- add button -->
+         <button type="submit" id="tambah">add</button>
+        <!-- add button -->
+       </form>
+      <!-- todo input end -->
+     
+     </section>
+    
+    <!-- form section end -->
+   
+    <!-- action section -->
+     <section>
+      <button id="bersihkan">bersihkan semua</button>
+      <button id="filter">filter</button>
+     </section>
+    <!-- action section end -->
+   
+    <!-- todo list section -->
+     <section>
+      <ul class="todo-list" id="todo-list">
+       <li>tugas tidak ditemukan</li>
+      </ul>
+     </section>
+    <!-- todo list section end -->
+    
+   </main>
+  <!-- main content end -->
+  
+  <!-- footer content -->
+  <footer>
+     <p>© todo list website andika</p>
+   </footer>
+  <!-- footer content end -->
+ </div>
+  <!-- javascript internal file link-->
+  <script src="/js/Script.js"></script>
+</body>
+</html>
